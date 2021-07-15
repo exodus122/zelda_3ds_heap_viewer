@@ -7,13 +7,13 @@ void handleInput(HANDLE pHandle, u64 fcramAddr, int game, Heap heap, std::string
 int main() {
 	std::string processName = "";
 	//std::string processName = "Citra Nightly 1629 | Ocarina of Time 3D";
-
+	
 	while (true) {
 
 		// Get Citra process name from user
 		if (processName == "") {
 			std::string input = "";
-			std::cout << "Please enter the name of the Citra window. Examples:\nCitra Nightly 1629 | Ocarina of Time 3D\nCitra Nightly 1629 | Majora's Mask 3D\n\n";
+			std::cout << "Please enter the name of the Citra window. Examples:\nCitra Nightly 1716 | Ocarina of Time 3D\nCitra Nightly 1716 | Majora's Mask 3D\n\n";
 			std::getline(std::cin, input);
 			std::regex myRegex(R"(^(.*Citra.*)$)");
 			std::smatch match;

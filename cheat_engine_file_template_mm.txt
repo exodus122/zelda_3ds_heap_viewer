@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="26">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>52</ID>
+      <Description>"FCRAM Start 7fffffffffffffff"</Description>
+      <LastState Value="68" RealAddress="20767040"/>
+      <VariableType>Byte</VariableType>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>00</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>51</ID>
+      <Description>"--- HEAP START- First Node of heap 08010000"</Description>
+      <LastState RealAddress="26289040"/>
+      <VariableType>String</VariableType>
+      <Length>8</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>05B22000</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>50</ID>
+      <Description>"--- HEAP start"</Description>
+      <LastState Value="164" RealAddress="26289080"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>05B22040</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>62</ID>
+      <Description>"--- Global Context START"</Description>
+      <LastState Value="100" RealAddress="262BAB60"/>
+      <VariableType>Byte</VariableType>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>05B53B20</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>65</ID>
+      <Description>"Cutscene Timer"</Description>
+      <LastState Value="52428" RealAddress="262BCFA8"/>
+      <VariableType>2 Bytes</VariableType>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>05B55F68</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>69</ID>
+      <Description>"Cutscene pointer"</Description>
+      <LastState Value="CCCCCCCC" RealAddress="262BCFC8"/>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>05B55F88</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>70</ID>
+      <Description>"Cutscene State (3 = break free)"</Description>
+      <LastState Value="204" RealAddress="262BD1EC"/>
+      <VariableType>Byte</VariableType>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>05B561AC</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>61</ID>
+      <Description>"Warp Activator (non-zero)"</Description>
+      <LastState Value="204" RealAddress="262C7089"/>
+      <VariableType>Byte</VariableType>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>05B60049</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>60</ID>
+      <Description>"Next Entrance"</Description>
+      <LastState Value="CCCC" RealAddress="262C708E"/>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>2 Bytes</VariableType>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>05B6004E</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>63</ID>
+      <Description>"--- Global Context END"</Description>
+      <LastState Value="81723571" RealAddress="262CBB90"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>05B64B50</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>81</ID>
+      <Description>"DEKU PALACE- Player Actor Instance START"</Description>
+      <LastState Value="52626223" RealAddress="272BE430"/>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>06B573F0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>32</ID>
+      <Description>"NORM- ---Player Actor start (0905C420)"</Description>
+      <LastState Value="0949535A" RealAddress="272D54A0"/>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>06B6E460</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>31</ID>
+      <Description>"NORM- X Coord"</Description>
+      <LastState Value="5.941505489E-43" RealAddress="272D54C4"/>
+      <VariableType>Float</VariableType>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>06B6E484</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>29</ID>
+      <Description>"NORM- Y Coord"</Description>
+      <LastState Value="2.530745027E-42" RealAddress="272D54C8"/>
+      <VariableType>Float</VariableType>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>06B6E488</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>30</ID>
+      <Description>"NORM- Z Coord"</Description>
+      <LastState Value="6.67018069E-43" RealAddress="272D54CC"/>
+      <VariableType>Float</VariableType>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>06B6E48C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>58</ID>
+      <Description>"NORM- Grab Actor Ptr"</Description>
+      <LastState Value="00008908" RealAddress="272D55CC"/>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>06B6E58C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>34</ID>
+      <Description>"NORM- Model in Hand"</Description>
+      <LastState Value="2" RealAddress="272D569B"/>
+      <VariableType>Byte</VariableType>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>06B6E65B</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>33</ID>
+      <Description>"NORM- Item in Hand"</Description>
+      <LastState Value="0" RealAddress="272D569C"/>
+      <VariableType>Byte</VariableType>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>06B6E65C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>35</ID>
+      <Description>"NORM- Item in Hand Action"</Description>
+      <LastState Value="0" RealAddress="272D569E"/>
+      <VariableType>Byte</VariableType>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>06B6E65E</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>49</ID>
+      <Description>"NORM- --- End Player Instance?"</Description>
+      <LastState Value="0" RealAddress="272D67F7"/>
+      <VariableType>Byte</VariableType>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>06B6F7B7</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>80</ID>
+      <Description>"Deku Palace Statue Params - default position"</Description>
+      <LastState Value="DEDE" RealAddress="27B8D2CC"/>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>2 Bytes</VariableType>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>0742628C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>48</ID>
+      <Description>"--- Save Context Start?"</Description>
+      <LastState Value="76" RealAddress="27DC2340"/>
+      <VariableType>Byte</VariableType>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>0765B300</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"Health"</Description>
+      <LastState Value="48" RealAddress="27DC2354"/>
+      <VariableType>Byte</VariableType>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>0765B314</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"Rupee Count"</Description>
+      <LastState Value="0" RealAddress="27DC2358"/>
+      <VariableType>Byte</VariableType>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>0765B318</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>5</ID>
+      <Description>"Slot 0 - Ocarina (0)"</Description>
+      <LastState Value="255" RealAddress="27DC2394"/>
+      <VariableType>Byte</VariableType>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>0765B354</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>6</ID>
+      <Description>"Slot 1 - Bow (1)"</Description>
+      <LastState Value="255" RealAddress="27DC2395"/>
+      <VariableType>Byte</VariableType>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>0765B355</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>9</ID>
+      <Description>"Slot 6 - Bombs (6)"</Description>
+      <LastState Value="255" RealAddress="27DC239A"/>
+      <VariableType>Byte</VariableType>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>0765B35A</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>10</ID>
+      <Description>"Slot 8 - Deku sticks (8)"</Description>
+      <LastState Value="255" RealAddress="27DC239C"/>
+      <VariableType>Byte</VariableType>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>0765B35C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>7</ID>
+      <Description>"Mask Slot 1 - ?"</Description>
+      <LastState Value="255" RealAddress="27DC23AC"/>
+      <VariableType>Byte</VariableType>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>0765B36C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>77</ID>
+      <Description>"Mask Slot - Deku (50)"</Description>
+      <LastState Value="255" RealAddress="27DC23B1"/>
+      <VariableType>Byte</VariableType>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>0765B371</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>11</ID>
+      <Description>"Bomb Count"</Description>
+      <LastState Value="0" RealAddress="27DC23D6"/>
+      <VariableType>Byte</VariableType>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>07BA386+6EA1010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>8</ID>
+      <Description>"Deku Stick Count"</Description>
+      <LastState Value="0" RealAddress="27DC23D8"/>
+      <VariableType>Byte</VariableType>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>0765B398</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>59</ID>
+      <Description>"Entrance"</Description>
+      <LastState Value="D800" RealAddress="27DC5730"/>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>2 Bytes</VariableType>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>0765E6F0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>74</ID>
+      <Description>"start strings (0063DD18)"</Description>
+      <LastState RealAddress="27E3CD58"/>
+      <VariableType>String</VariableType>
+      <Length>75</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>076D5D18</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>76</ID>
+      <Description>"start other strings"</Description>
+      <LastState RealAddress="27E4E264"/>
+      <VariableType>String</VariableType>
+      <Length>22</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>[["citra-qt.exe"+1534DC0]]</Address>
+      <Offsets>
+        <Offset>076E7224</Offset>
+      </Offsets>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>

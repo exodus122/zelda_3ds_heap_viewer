@@ -4,12 +4,14 @@
 #include <string>
 #include <sstream>
 #include <iostream>
+#include <fstream>
 #include <iomanip>
 #include <vector>
 #include <Windows.h>
 #include <Psapi.h>
 #include <locale>
 #include <codecvt>
+#include <iomanip>
 
 typedef unsigned short u16;
 typedef unsigned long u32;

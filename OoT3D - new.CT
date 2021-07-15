@@ -1,0 +1,1316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="26">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>190</ID>
+      <Description>"Process Base Address"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"citra-qt.exe"+0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>193</ID>
+      <Description>"Ptr to Ptr to Ptr to FCRAM Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>01934DC0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>195</ID>
+      <Description>"Game ID"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>8 Bytes</VariableType>
+      <Address>01934E28</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>194</ID>
+      <Description>"--- FCRAM start (2900010...)"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>171</ID>
+      <Description>"--- Start of BIG heap (8080010)"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>2 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>-1874010+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>172</ID>
+      <Description>"Text Data Start (English, French, and Spanish)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>-12B3820+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>160</ID>
+      <Description>"Global Context START"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>-11D57D0+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>125</ID>
+      <Description>"Cutscene Pointer"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>-11D3534+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>163</ID>
+      <Description>"Cutscene State (3 = break out)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>-11D3530+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>124</ID>
+      <Description>"Cutscene Timer"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>-11D3518+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>84</ID>
+      <Description>"Age Setter on next Scene Load (1=Child, 0=Adult)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>-11CFBD0+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>83</ID>
+      <Description>"Warp Activator (non-zero)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>-11CFBA3+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>82</ID>
+      <Description>"Next Entrance (hex)"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>2 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>-11CFB9E+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>156</ID>
+      <Description>"Next Entrance (dec)"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>-11CFB9E+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>162</ID>
+      <Description>"Scene Setup (Current, lock doesn't work...)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>-11CD88F+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>197</ID>
+      <Description>"--- Actor Heap START (size = 6D3B0)"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>2 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>6FF4000</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>11</ID>
+      <Description>" --- Player Actor START"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>0+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>165</ID>
+      <Description>"X Pos (collision)"</Description>
+      <VariableType>Float</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>8+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>166</ID>
+      <Description>"Y Pos (Collision)"</Description>
+      <VariableType>Float</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>C+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>167</ID>
+      <Description>"Z Pos (Collision)"</Description>
+      <VariableType>Float</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>10+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>12</ID>
+      <Description>"X Coord"</Description>
+      <VariableType>Float</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>28+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>215</ID>
+      <Description>"X Coord (hex)"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Float</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>28+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>8</ID>
+      <Description>"Y Coord"</Description>
+      <VariableType>Float</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>2C+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>13</ID>
+      <Description>"Z Coord"</Description>
+      <VariableType>Float</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>30+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>70</ID>
+      <Description>"Y Velocity"</Description>
+      <VariableType>Float</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>64+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>73</ID>
+      <Description>"Angle"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>BE+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>120</ID>
+      <Description>"Text Id (in player actor)"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>2 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>116+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>74</ID>
+      <Description>"Actor Attached to Link Ptr"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>128+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>75</ID>
+      <Description>"Actor Link is Attached To Ptr"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>12C+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>29</ID>
+      <Description>"Item Model in Hand"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>1A9+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>28</ID>
+      <Description>"Item in Hand"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>1AA+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>30</ID>
+      <Description>"Item in Hand Action"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>1AC+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>69</ID>
+      <Description>"Held Actor Ptr"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>1224+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>68</ID>
+      <Description>"Get Item Value"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>12AC+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>67</ID>
+      <Description>"Grab Actor Angle"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>12AE+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>66</ID>
+      <Description>"Grab Actor Ptr"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>12B0+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>15</ID>
+      <Description>"Link Attack type 1 - 00208D64"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>1380+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>16</ID>
+      <Description>"Link Attack type 2 - 00208D64"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>1400+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>17</ID>
+      <Description>"Link Attack type 3 - 00208D64"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>1480+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>18</ID>
+      <Description>"Link Attack type 4 - 00208D64"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>1500+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>111</ID>
+      <Description>"Link Attack type 5 - 00208D64"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>1608+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>112</ID>
+      <Description>"Link Attack type 6 - 00208D64"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>1658+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>113</ID>
+      <Description>"Link Attack type 7 - 00208D64"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>16A8+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>54</ID>
+      <Description>"State 4 (128=Death)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>1710+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>55</ID>
+      <Description>"State 3 (64=LedgeCanc, 8=GroundJump, 4=GIM)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>1711+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>56</ID>
+      <Description>"State 2 (32=DownA, 16=ReturnA)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>1712+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>57</ID>
+      <Description>"State 1 (0=WWT,8=Swim,32=Freeze)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>1713+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>58</ID>
+      <Description>"State 8"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>1714+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>59</ID>
+      <Description>"State 7 (4=Underwater GID)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>1715+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>60</ID>
+      <Description>"State 6 (4=BlankA)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>1716+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>61</ID>
+      <Description>"State 5 (32=Invisible)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>1717+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>62</ID>
+      <Description>"Linear Velocity"</Description>
+      <VariableType>Float</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>221C+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>63</ID>
+      <Description>"Movement Angle"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>2220+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>48</ID>
+      <Description>"ISG = 1"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>2227+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>65</ID>
+      <Description>"Deku Stick Size"</Description>
+      <VariableType>Float</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>2244+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>53</ID>
+      <Description>"Deku Stick Timer"</Description>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>2248+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>118</ID>
+      <Description>"Get Item Model"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>224E+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>64</ID>
+      <Description>"Invincibility Timer (20=damage, 250=roll)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>2488+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>217</ID>
+      <Description>"--- Player Actor END"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>6FF6A60</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>216</ID>
+      <Description>"--- Actor Heap END"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>70613B0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>170</ID>
+      <Description>"--- END BIG heap (length 0x1954000) + actor heap (length 0x6D3B0)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>DFFF0+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>161</ID>
+      <Description>"Current Scene"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>755F90+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>137</ID>
+      <Description>"GIM Table Index -128"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>786686+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>136</ID>
+      <Description>"Get Item Table Index 1 (Bombs +5)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>78698C+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>135</ID>
+      <Description>"Chest Content Table - Small Key model"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>786B14+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>140</ID>
+      <Description>"Slot Table"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>9</ByteLength>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>787C34+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>19</ID>
+      <Description>"Entrance (hex)"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>2 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D2948+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>126</ID>
+      <Description>"Entrance (dec)"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D2948+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>76</ID>
+      <Description>" --- Save Context START"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D2948+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>33</ID>
+      <Description>"Age"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D294C+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>85</ID>
+      <Description>"Cutscene Number"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D2950+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>78</ID>
+      <Description>"Time of Day"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D2954+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>130</ID>
+      <Description>"Hearts"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D298A+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>23</ID>
+      <Description>"Health"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D298C+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>129</ID>
+      <Description>"Magic Amount (48 = full)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D298F+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"Rupee Count"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D2990+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>79</ID>
+      <Description>"Navi Timer"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D2994+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>131</ID>
+      <Description>"Magic Meter (non-zero - 96 is double?)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D2996+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>36</ID>
+      <Description>"B Button Item"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29C8+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>26</ID>
+      <Description>"Y Button Item"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29C9+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>31</ID>
+      <Description>"X Button Item"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29CA+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>203</ID>
+      <Description>"I Button Item"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29CB+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>202</ID>
+      <Description>"II Button Item"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29CC+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>211</ID>
+      <Description>"Y Button Slot"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29CD+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>212</ID>
+      <Description>"X Button Slot"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29CE+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>213</ID>
+      <Description>"I Button Slot"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29CF+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>214</ID>
+      <Description>"II Button Slot"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29D0+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>20</ID>
+      <Description>"Slot- Deku Stick (0)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29D4+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>43</ID>
+      <Description>"Slot- Deku Nut (1)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29D5+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>22</ID>
+      <Description>"Slot- Bomb (2)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29D6+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>42</ID>
+      <Description>"Slot- Bow (3)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29D7+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>44</ID>
+      <Description>"Slot- Fire Arrow (4)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29D8+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>151</ID>
+      <Description>"Slot- Din's Fire (5)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29D9+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>143</ID>
+      <Description>"Slot- Slingshot (6)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29DA+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>41</ID>
+      <Description>"Slot- Ocarina (7/8)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29DB+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>49</ID>
+      <Description>"Slot- Bombchu (9)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29DC+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>198</ID>
+      <Description>"Slot- Hookshot (10/11)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29DD+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>199</ID>
+      <Description>"Slot- Ice Arrow (12)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29DE+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>127</ID>
+      <Description>"Slot- Farore's Wind (13)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29DF+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>200</ID>
+      <Description>"Slot- Boomerang (14)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29E0+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>150</ID>
+      <Description>"Slot- Lens of Truth (15)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29E1+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>201</ID>
+      <Description>"Slot- Magic Beans (16)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29E2+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>204</ID>
+      <Description>"Slot- Hammer (17)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29E3+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>205</ID>
+      <Description>"Slot- Light Arrow (18)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29E4+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>206</ID>
+      <Description>"Slot- Nayru's Love (19)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29E4+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>94</ID>
+      <Description>"Slot- Bottle 1 (20 = Empty Bottle)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29E6+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>207</ID>
+      <Description>"Slot- Bottle 2"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29E7+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>208</ID>
+      <Description>"Slot- Bottle 3"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29E8+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>209</ID>
+      <Description>"Slot- Bottle 4"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29E9+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>158</ID>
+      <Description>"Slot- Adult Trade (45 = Pocket Egg)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29EA+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>210</ID>
+      <Description>"Slot- Child Trade (33 = Weird Egg)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29EB+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>46</ID>
+      <Description>"Slot- Iron Boots (69)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29EC+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>47</ID>
+      <Description>"Slot- Hover Boots (70)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29ED+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>24</ID>
+      <Description>"Count- Deku Stick"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29EE+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>144</ID>
+      <Description>"Count- Deku Nut"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29EF+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>21</ID>
+      <Description>"Count- Bomb"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29F0+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>45</ID>
+      <Description>"Count- Arrows"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29F1+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>27</ID>
+      <Description>"Count- Slingshot"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29F4+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>32</ID>
+      <Description>"Count- Bombchu"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29F6+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>148</ID>
+      <Description>"Count- Magic Beans"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29FC+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>34</ID>
+      <Description>"Equip- Swords/Shields (51 = main, 17=child, 119=all)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29FE+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>35</ID>
+      <Description>"Equip- Tunics/Boots (119 = all, 17=default)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D29FF+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>145</ID>
+      <Description>"Equipment- Bomb Bag/Quiver/Strength"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D2A00+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>146</ID>
+      <Description>"Equipment- Scale/Wallet/Strength"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D2A01+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>147</ID>
+      <Description>"Equipment- Stick/Nut/Bullet Bag Capacity"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D2A02+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>40</ID>
+      <Description>"Quest- Medallions, Minuet, Bolero"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D2A04+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>39</ID>
+      <Description>"Quest- Songs"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D2A05+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>37</ID>
+      <Description>"Quest- Stones, Gerudo Card, Agony"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D2A06+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>38</ID>
+      <Description>"Quest- Heart Pieces"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D2A07+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>117</ID>
+      <Description>"Small Keys- BotW"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D2A24+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>142</ID>
+      <Description>"Gold Skulltula Count"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D2A30+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>153</ID>
+      <Description>"Entrance Index - Farore's Wind (copy)"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>2 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D37D8+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>122</ID>
+      <Description>"Attract Mode = 1"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D3E2C+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>152</ID>
+      <Description>"Entrance Index - Zoneout"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>2 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D3E48+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>164</ID>
+      <Description>"Entrance Index - Grotto"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>2 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D3E64+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>154</ID>
+      <Description>"Entrance Index - Farore's Wind (real)"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>2 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D3E80+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>157</ID>
+      <Description>"Trade Item Timer"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D3EAC+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>93</ID>
+      <Description>"Temp B (B Button Dimmer)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D3EB7+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>123</ID>
+      <Description>"Cutscene Setter (on next scene load)"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>2 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>7D3EE8+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>121</ID>
+      <Description>"Text ID"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>2 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>80D7A8+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>132</ID>
+      <Description>"Item Action Table START (Deku Stick Action)"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>824D8A+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>173</ID>
+      <Description>"Code 1 start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>841FF0+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>175</ID>
+      <Description>"Code 1 end"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>[[0199CDE0]]</Address>
+      <Offsets>
+        <Offset>C9CFF0+6FF4010</Offset>
+      </Offsets>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>

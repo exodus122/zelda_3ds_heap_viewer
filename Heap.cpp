@@ -116,7 +116,7 @@ void Heap::init(std::string windowName, int game) {
             pattern1[5] = '\x00';
             pattern1[6] = '\x04';
             pattern1[7] = '\x00'; // game id of MM 3D
-            pattern2[0] = '\x3B';
+            pattern2[0] = '\x61';
             pattern2[1] = '\x00';
             pattern2[2] = '\x00';
             pattern2[3] = '\x00';
@@ -129,12 +129,21 @@ void Heap::init(std::string windowName, int game) {
             throw("Invalid game");
         }
 
-        this->fcramAddr = (u64)GetAddressOfData(pid, pattern1, sizeof(pattern1), pattern2, sizeof(pattern2), 0x10) - 0x58;
+        u64 cheat_engine_ptr = this->fcramAddr = (u64)GetAddressOfData(pid, pattern1, sizeof(pattern1), pattern2, sizeof(pattern2), 0x10) - 0x58;
+        /*std::cout << "Address of Data: " << hex2(this->fcramAddr, 8) << std::endl;*/
+
         ReadProcessMemory(pHandle, (LPVOID)(this->fcramAddr), &this->fcramAddr, sizeof(this->fcramAddr), 0); // Get Ptr to Ptr to FCRAM start
+        /*std::cout << "Ptr to Ptr to FCRAM start: " << hex2(this->fcramAddr, 8) << std::endl;*/
+        
         ReadProcessMemory(pHandle, (LPVOID)(this->fcramAddr), &this->fcramAddr, sizeof(this->fcramAddr), 0); // Get Ptr to FCRAM start
+        /*std::cout << "Ptr to FCRAM start: " << hex2(this->fcramAddr, 8) << std::endl;*/
+        
         ReadProcessMemory(pHandle, (LPVOID)(this->fcramAddr), &this->fcramAddr, sizeof(this->fcramAddr), 0); // Get FCRAM start
         if (!this->fcramAddr)
             throw("Could not find FCRAM start address");
+
+        /*std::cout << "FCRAM start: " << hex2(this->fcramAddr, 8) << std::endl;
+        system("pause");*/
 
         // Determine the start of the actor heap
         this->currAddress = this->startAddress = this->fcramAddr + FCRAM_HEAP_OFFSET[this->game];
@@ -148,6 +157,81 @@ void Heap::init(std::string windowName, int game) {
         if (!this->citraOffset)
             throw("Could not find Citra Offset Address");
 
+        // Create Cheat Engine file
+        if (game == GAME_OOT3D) {
+
+            std::ifstream cheatTemplate("./cheat_engine_file_template_oot.txt");
+            std::string line;
+            std::ofstream output("./OoT3D - new.CT");
+
+            if (cheatTemplate.is_open())
+            {
+
+                while (std::getline(cheatTemplate, line)) {
+                    size_t index = 0;
+                    while (true) {
+                        std::string orig = "[[\"citra-qt.exe\"+1534DC0]]";
+
+                        /* Locate the substring to replace. */
+                        index = line.find(orig, index);
+                        if (index == std::string::npos)
+                            break;
+
+                        /* Make the replacement. */
+                        std::string temp_string = "[[" + hex2(cheat_engine_ptr, 8) + "]]";
+                        line.replace(index, orig.length(), temp_string);
+
+                        /* Advance index forward so the next iteration doesn't pick it up as well. */
+                        index += temp_string.length();
+                    }
+
+                    output << line << std::endl;
+                    //std::cout << line << std::endl;
+                }
+                cheatTemplate.close();
+            }
+
+            else
+                std::cout << "Unable to open file";
+
+        }
+        else if (game == GAME_MM3D) {
+
+            std::ifstream cheatTemplate("./cheat_engine_file_template_mm.txt");
+            std::string line;
+            std::ofstream output("./MM3D - new.CT");
+
+            if (cheatTemplate.is_open())
+            {
+
+                while (std::getline(cheatTemplate, line)) {
+                    size_t index = 0;
+                    while (true) {
+                        std::string orig = "[[\"citra-qt.exe\"+1534DC0]]";
+
+                        // Locate the substring to replace. 
+                        index = line.find(orig, index);
+                        if (index == std::string::npos)
+                            break;
+
+                        // Make the replacement. 
+                        std::string temp_string = "[[" + hex2(cheat_engine_ptr, 8) + "]]";
+                        line.replace(index, orig.length(), temp_string);
+
+                        // Advance index forward so the next iteration doesn't pick it up as well. 
+                        index += temp_string.length();
+                    }
+
+                    output << line << std::endl;
+                    //std::cout << line << std::endl;
+                }
+                cheatTemplate.close();
+            }
+
+            else
+                std::cout << "Unable to open file";
+
+        }
     }
     catch (std::string exception)
     {
@@ -256,3 +340,4 @@ u64 Heap::getGlobalContextAddress() {
 u64 Heap::getFcramAddress() {
     return this->fcramAddr;
 }
+
